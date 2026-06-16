@@ -1,0 +1,60 @@
+name: SparkHomes
+version: 1.0.0
+main: com.pavitraxd.sparkhomes.SparkHomes
+api-version: 1.21
+author: PavitraXD
+description: A lightweight, polished homes plugin for SMP servers
+
+commands:
+  sethome:
+    description: Create a home at your current location
+    usage: /sethome <name>
+    permission: sparkhomes.sethome
+  home:
+    description: Teleport to a home or open the homes GUI
+    usage: /home [name]
+    permission: sparkhomes.home
+  delhome:
+    description: Delete a home
+    usage: /delhome <name>
+    permission: sparkhomes.delhome
+  homes:
+    description: List all your homes
+    usage: /homes
+    permission: sparkhomes.use
+  sparkhomes:
+    description: SparkHomes admin commands
+    usage: /sparkhomes reload
+    permission: sparkhomes.admin.reload
+
+permissions:
+  sparkhomes.use:
+    description: Allow using the homes plugin
+    default: true
+  sparkhomes.sethome:
+    description: Allow creating homes
+    default: true
+  sparkhomes.delhome:
+    description: Allow deleting homes
+    default: true
+  sparkhomes.home:
+    description: Allow teleporting to homes
+    default: true
+  sparkhomes.limit.2:
+    description: Allow 2 homes
+    default: true
+  sparkhomes.limit.3:
+    description: Allow 3 homes
+    default: false
+  sparkhomes.limit.4:
+    description: Allow 4 homes
+    default: false
+  sparkhomes.limit.5:
+    description: Allow 5 homes
+    default: false
+  sparkhomes.bypass.limit:
+    description: Bypass home limits
+    default: op
+  sparkhomes.admin.reload:
+    description: Allow reloading the config
+    default: op
