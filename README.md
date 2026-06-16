@@ -1,9 +1,9 @@
 # 🏠 SparkHomes
 
-A lightweight, polished, and extremely user-friendly homes plugin for Minecraft servers running Paper/Purpur 1.20.4+.
+A lightweight, polished, and extremely user-friendly homes plugin for Minecraft servers running Paper/Purpur 1.21+.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![Paper](https://img.shields.io/badge/Paper-1.20.4+-green.svg)
+![Paper](https://img.shields.io/badge/Paper-1.21+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## ✨ Features
@@ -48,34 +48,6 @@ A lightweight, polished, and extremely user-friendly homes plugin for Minecraft 
 - `sparkhomes.bypass.limit` - Bypass home limits (default: op)
 - `sparkhomes.admin.reload` - Reload configuration (default: op)
 
-## ⚙️ Configuration
-
-```yaml
-# Teleport warmup delay in seconds
-teleport-delay: 5
-
-# Cooldown between teleports in seconds (0 to disable)
-teleport-cooldown: 3
-
-# Cancel teleport if player moves
-cancel-on-move: true
-
-# Cancel teleport if player takes damage
-cancel-on-damage: true
-
-# Default maximum homes for players without permissions
-max-default-homes: 2
-
-# Maximum home name length
-max-name-length: 16
-
-# Enable sounds
-sounds-enabled: true
-
-# Enable messages
-messages-enabled: true
-```
-
 ## 🎮 GUI Features
 
 - **3-Row Inventory** - Clean and compact design
@@ -99,7 +71,7 @@ messages-enabled: true
 
 ## 📦 Requirements
 
-- **Server**: Paper or Purpur 1.20.4+
+- **Server**: Paper or Purpur 1.21+
 - **Java**: 17 or higher
 - **Permissions**: LuckPerms (recommended)
 
